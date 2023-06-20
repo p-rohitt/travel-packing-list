@@ -1,0 +1,42 @@
+.form{
+    display:flex; 
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:#e06d1d;
+}
+
+.form__message{
+    font-size:20px;
+    color:#5a3e2b;
+    font-weight:200;
+
+}
+
+.form__input > select{
+    border-radius:20px;
+    height:40px;
+    width:100px;
+    background-color: #fee6aa;
+    border:1px solid #fee6aa;
+    margin-right:5px;
+    text-align: center;
+}
+
+.form__input > input{
+    border-radius:20px;
+    height:40px;
+    width:150px;
+    background-color: #fee6aa;
+    border:1px solid #fee6aa;
+    text-align: center;
+    
+}
+.form__input > button{
+    border-radius:20px;
+    height:40px;
+    margin-left:10px;
+    width:70px;
+    background-color: #69c0a4;
+    border:1px solid #69c0a4;
+    text-align: center;
+}

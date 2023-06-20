@@ -1,0 +1,23 @@
+.header{
+    padding:10px;
+    padding-bottom: 20px;
+    width:100%;
+    height:100px;
+    background-color: orange;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.header__title{
+    align-items: center;
+    justify-content: center;
+}
+
+.header__title > h2{
+    font-size:50px;
+    padding-right: 50px;
+    font-style: bold;
+    transform:translatex(4px) translatey(-17px);
+ min-height:78px;
+}
